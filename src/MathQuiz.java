@@ -2,7 +2,7 @@ import sun.text.normalizer.NormalizerBase;
 
 public class MathQuiz {
 
-    public boolean Question1 (double answer){
+    public boolean Question1 (double answer){ //metody powinny byc od malej litery!!!
         boolean question1;
             if (answer == 15){
             question1 = true;

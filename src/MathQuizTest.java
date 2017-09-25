@@ -18,22 +18,22 @@ public class MathQuizTest {
         answerQuizQuestions.close();
         MathQuiz checkAnswers = new MathQuiz();
         boolean checkedAnswer1 = checkAnswers.Question1(answerQ1);
-        boolean checkedAnswer2 = checkAnswers.Question1(answerQ2);
-        boolean checkedAnswer3 = checkAnswers.Question1(answerQ3);
+        boolean checkedAnswer2 = checkAnswers.Question2(answerQ2);
+        boolean checkedAnswer3 = checkAnswers.Question3(answerQ3);
 
-        if (checkedAnswer1 == true) {
+        if (checkedAnswer1) {
             System.out.println("Pytanie 1: Poprawna odpowiedź");
         } else {
             System.out.println("Pytanie 1: Błędna odpowiedź. Poprawna odpowiedź to 15.");
         }
 
-        if (checkedAnswer2 == true) {
+        if (checkedAnswer2) {
             System.out.println("Pytanie 2: Poprawna odpowiedź");
         } else {
             System.out.println("Pytanie 2: Błędna odpowiedź. Poprawna odpowiedź to 144.");
         }
 
-        if (checkedAnswer3 == true) {
+        if (checkedAnswer3) {
             System.out.println("Pytanie 3: Poprawna odpowiedź");
         } else {
             System.out.println("Pytanie 3: Błędna odpowiedź. Poprawna odpowiedź to 123.");
